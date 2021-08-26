@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Works from './pages/Works';
@@ -34,6 +35,7 @@ export default function App () {
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 

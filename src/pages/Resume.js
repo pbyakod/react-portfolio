@@ -4,7 +4,11 @@ import "../styling/styles.css";
 export default function Resume() {
     return (
         <div class="resume">
-            <a class="nav-link resume-link" href="./resume.pdf" download>Resume Download Link</a>
+            <div class="card">
+                <div class="card-header">
+                    <a class="nav-link resume-link" href="./resume.pdf" download>Resume Download Link</a>
+                </div>
+            </div>
             <div class="front-end">
                 <h2>Front-End Technologies</h2>
                 <ul>
