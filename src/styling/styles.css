@@ -1,12 +1,14 @@
 body {
     font-family: 'B612';
     background-color: #1c2e4a; 
-}
-
-header, main {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/* header, main {
+    margin-left: 10%;
+    margin-right: 10%;
+} */
 
 .navbar {
     padding: 20px;
@@ -66,4 +68,16 @@ header, main {
 
 .resume {
     color: white;
+}
+
+.resume-link {
+    text-align: center;
+}
+
+.front-end {
+    float: left;
+}
+
+.back-end {
+    float: right;
 }

@@ -16,13 +16,13 @@ function Navigation ({ currentPage, handlePageChange}) {
                         <li class="nav-item">
                             <a class="nav-link" href="#works"  onClick={() => handlePageChange('Works')} className={currentPage === 'Works' ? 'nav-link active' : 'nav-link'}>Works</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact"  onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume"  onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
-                        </li>
                     </ul>
+                    <li class="d-flex nav-item">
+                        <a class="nav-link" href="#contact"  onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+                    </li>
+                    <li class="d-flex nav-item">
+                        <a class="nav-link" href="#resume"  onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+                    </li>
                 </div>
             </div>
         </nav>
