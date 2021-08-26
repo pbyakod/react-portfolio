@@ -1,0 +1,61 @@
+body {
+    font-family: 'B612';
+    background-color: #1c2e4a; 
+}
+
+header, main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-custom {
+    background-color: #1c2e4a;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: bisque;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img-top:hover {
+    background-color: burlywood;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.card-custom {
+    text-align: center;
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.top-row {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bottom-row {
+    margin-top: 20px;
+}
+
+.header-custom {
+    height: 600px;
+}
