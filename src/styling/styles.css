@@ -93,12 +93,10 @@ body {
 
 .front-end {
     float: left;
-    margin-top: 50px;
 }
 
 .back-end {
     float: right;
-    margin-top: 50px;
 }
 
 .content {

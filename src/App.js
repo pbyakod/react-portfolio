@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Works from './pages/Works';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import "./styling/styles.css"
@@ -18,8 +18,8 @@ export default function App () {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Works') {
-      return <Works />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;

@@ -14,7 +14,7 @@ function Navigation ({ currentPage, handlePageChange}) {
                             <a class="nav-link" href="#about"  onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}><i class="fas fa-id-card"></i> About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#works"  onClick={() => handlePageChange('Works')} className={currentPage === 'Works' ? 'nav-link active' : 'nav-link'}><i class="fas fa-folder-open"></i> Works</a>
+                            <a class="nav-link" href="#works"  onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}><i class="fas fa-folder-open"></i> Projects</a>
                         </li>
                     </ul>
                     <li class="d-flex nav-item">
