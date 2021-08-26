@@ -1,4 +1,6 @@
 import React from "react";
+import "../styling/styles.css";
+
 
 export default function About() {
     return (
@@ -6,7 +8,7 @@ export default function About() {
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="media/profile.jpg" alt="profile"></img>
+                        <img src="./profile.jpg" alt="profile"></img>
                     </div>
                 </div>
                 <div class="col-md-8">

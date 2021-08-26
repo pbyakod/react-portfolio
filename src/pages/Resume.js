@@ -1,9 +1,10 @@
 import React from "react";
+import "../styling/styles.css";
 
 export default function Resume() {
     return (
-        <div>
-            <a class="nav-link" href="media/resume.pdf" download>Resume Download Link</a>
+        <div class="resume">
+            <a class="nav-link" href="./resume.pdf" download>Resume Download Link</a>
             <h1>Developer Proficiencies</h1>
             <h2>Front-End Technologies:</h2>
             <ul>

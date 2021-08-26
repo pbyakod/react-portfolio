@@ -1,4 +1,5 @@
 import React from "react";
+import "../styling/styles.css";
 
 function Navigation ({ currentPage, handlePageChange}) {
     return (

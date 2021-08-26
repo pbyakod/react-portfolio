@@ -1,10 +1,11 @@
 import React from "react";
+import "../styling/styles.css";
 
 export default function Home() {
     return (
         <div>
             <div class="header-custom" id="home">
-                <img src="media/header.gif" class="img-fluid" alt="animated header"></img>
+                <img src="./header.gif" class="img-fluid" alt="animated header"></img>
             </div>
         </div>
     )

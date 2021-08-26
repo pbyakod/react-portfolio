@@ -5,6 +5,7 @@ import About from './pages/About';
 import Works from './pages/Works';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import "./styling/styles.css"
 
 export default function App () {
   const [currentPage, setCurrentPage] = useState('Home');
